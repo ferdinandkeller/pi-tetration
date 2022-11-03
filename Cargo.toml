@@ -1,0 +1,11 @@
+[package]
+name = "pi-tetration"
+version = "0.1.0"
+edition = "2021"
+author = "Ferdinand Keller"
+about = "A little program that will compute the latest numbers of a tetration."
+
+[dependencies]
+num-bigint = "0.4"
+num-format = { version = "0.4", features = ["with-num-bigint"] }
+clap = { version = "4.0", features = ["derive"] }
