@@ -2,8 +2,10 @@
 name = "pi-tetration"
 version = "0.1.0"
 edition = "2021"
-author = "Ferdinand Keller"
-about = "A little program that will compute the latest numbers of a tetration."
+authors = ["Ferdinand Keller"]
+description = "A simple CLI tool to compute the last digits of n^n^n^n."
+keywords = ["rust", "cli", "pi", "tetration", "mattparker"]
+license = "MIT"
 
 [dependencies]
 num-bigint = "0.4"

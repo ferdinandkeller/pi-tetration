@@ -7,4 +7,4 @@ Long story short, it's hard. So as an alternative we will compute the digits of 
 
 This program is here for you to ask ANY amount of digit (as long as it can fit on your computer). This way, you can learn that `3^3^3^3` ends in `..5,344,828,628,021,555,146,929,939,999,502,212,249,640,012,905,650,177,570,718,344,711,077,047,886,315,075,206,738,945,776,100,739,387`.
 
-Run the command `cargo run --release -- -p 100` to get 100 digits, and `cargo run --release -- -h` to get help about the executable (yes, this is useless, but it's fun).
+Run the command `cargo run --release -- -d 100` to get 100 digits, and `cargo run --release -- -h` to get help about the executable (yes, this is useless, but it's fun).
